@@ -20,7 +20,7 @@ int login()
 
 	do
 	{
-	    void Color();
+	    Color();
 		printf("\n\t\t\t\t\t\t Computer Programming 1");
 		printf("\n\t\t\t\t\t Student Information Management System \n");
 		printf("\n\n\n\t\t\t\t\t Enter Username: ");
@@ -41,7 +41,7 @@ int login()
 
 		if (strcmp(uname, "Janith") == 0 && strcmp(pword, "janith0131") == 0)
 		{
-			system("Color 07");
+			Color();
 			printf("\n\n\n\n\t\t\t\t\t Student Information Management System ");
 			printf("\n\n\t\t\t\t\t Login Successful!");
 			printf("\n\n\n\n\t\t\t\t\t Press any key to continue...");
@@ -63,6 +63,7 @@ int login()
 
 	if (a > 3)
 	{
+	    Color();
 		printf("\n\n\t\t\t\t\t\t Computer Programming 1 \n");
 		printf("\n\t\t\t\t\t Student Information Management System \n");
 		printf("\n\n\n\t\t\t Sorry, you have entered the wrong username and password four times!  ");
@@ -78,6 +79,7 @@ using namespace std;
 int activityNine ()
 {
 	login ();
+	Color();
 
 
 	FILE *fp, *ft;

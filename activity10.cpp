@@ -27,6 +27,8 @@ struct uno e;
 
 int activityLogin()
 {
+
+
 	int a = 0, i= 0;
 	char uname[20], c = ' ';
 	char pword[20], code[20];
@@ -35,11 +37,12 @@ int activityLogin()
 
 	do
 	{
+	    Color();
         cout << "\n\t\t\t\t\t\t    Activity 10\n\n\n";
 		printf("\n\t\t\t\t\t\t Computer Programming 1");
 		printf("\n\t\t\t\t\t Student Information Management System");
 
-		system("Color 07");
+
 
 		printf("\n\n\n\t\t\t\t\t Enter Username: ");
 		scanf("%s", &uname);
@@ -59,7 +62,7 @@ int activityLogin()
 
 		if (strcmp(uname, "togsaaay") == 0 && strcmp(pword, "janith0131") == 0)
 		{
-			system("Color 07");
+			Color();
 			printf("\n\n\n\n\t\t\t\t\t Student Information Management System ");
 			printf("\n\n\t\t\t\t\t Login Successful!");
 			printf("\n\n\n\n\t\t\t\t\t Press any key to continue...");
@@ -81,6 +84,7 @@ int activityLogin()
 
 	if (a > 2)
 	{
+	    Color();
 		printf("\n\n\t\t\t\t\t\t Computer Programming 1 \n");
 		printf("\n\t\t\t\t\t Student Information Management System \n");
 		printf("\n\n\n\t\t\t Sorry, you have entered the wrong username and password three times!  ");
@@ -171,6 +175,7 @@ void equivalent()
 int activityTen ()
 {
 	activityLogin ();
+	Color();
 
 	FILE *fp, *ft;
 
@@ -286,7 +291,6 @@ int activityTen ()
 
 					}
 
-					cout << endl << endl;
 					system("pause");
 					break;
 

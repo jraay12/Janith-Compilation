@@ -122,3 +122,126 @@
 	<string>
 	<windows.h>
 
+1673439368 source:c:\users\john ray\janith-compilation\activity1.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673450023 c:\users\john ray\janith-compilation\outsidefile.h
+
+1673449850 source:c:\users\john ray\janith-compilation\activity10.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"outsidefile.h"
+	<string>
+	<windows.h>
+
+1673439413 source:c:\users\john ray\janith-compilation\activity2.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673439566 source:c:\users\john ray\janith-compilation\activity3.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673439845 source:c:\users\john ray\janith-compilation\activity4.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673439952 source:c:\users\john ray\janith-compilation\activity5.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673440203 source:c:\users\john ray\janith-compilation\activity6.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673440353 source:c:\users\john ray\janith-compilation\activity7.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673440429 source:c:\users\john ray\janith-compilation\activity8.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673449972 source:c:\users\john ray\janith-compilation\main.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<windows.h>
+	<string>
+
+1673531382 source:c:\users\john ray\janith-compilation\activity9.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"outsidefile.h"
+	<string>
+	<windows.h>
+
