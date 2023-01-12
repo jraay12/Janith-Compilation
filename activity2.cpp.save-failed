@@ -1,0 +1,25 @@
+#include <iostream>
+#include "outsidefile.h"
+
+using namespace std;
+int activityTwo(){
+
+    int C, A, B;
+    char choice;
+    do{
+    cout << "\n\t\t\t\t\t\t\t     Activity 2\n\n\n";
+  	cout << "\t\t\t\t\tEnter 1st number: ";
+  	cin >> A;
+
+ 	cout << "\t\t\t\t\tEnter 2nd number: ";
+  	cin >> B;
+
+ 	C = A + B;
+
+  	cout << "\t\t\t\t\tThe sum is: " << C << endl;
+    cout << "\t\t\t\t\tDo you want to do another calculations? [Y/N]";
+    cin >> choice;
+    }while (choice == 'y' || choice == 'Y');
+
+
+}
