@@ -40,6 +40,7 @@ int main()
     cout << "\n\t\t\t\t\t\t    [8] Activity 8";
     cout << "\n\t\t\t\t\t\t    [9] Activity 9";
     cout << "\n\t\t\t\t\t\t    [0] Activity 10";
+    cout << endl << "\n\t\t\t\t\t\t    [X] To Exit";
     cout << "\n\n\t\t\t\t\t\t Enter you choice: ";
     fflush(stdin);
     choice = getch();
@@ -76,6 +77,10 @@ int main()
 
         case '0' : activityTen();
         break;
+
+        case 'X':
+        case 'x':
+            exit (0);
 
         default: cout << "Invalid choices";
     }

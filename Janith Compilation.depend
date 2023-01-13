@@ -245,3 +245,126 @@
 	<string>
 	<windows.h>
 
+1673542053 source:c:\users\coole\janith-compilation\activity1.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 c:\users\coole\janith-compilation\outsidefile.h
+
+1673542053 source:c:\users\coole\janith-compilation\activity10.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"outsidefile.h"
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity2.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity3.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity4.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity5.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity6.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity7.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity8.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<windows.h>
+
+1673542053 source:c:\users\coole\janith-compilation\activity9.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"outsidefile.h"
+	<string>
+	<windows.h>
+
+1673580216 source:c:\users\coole\janith-compilation\main.cpp
+	<iostream>
+	"outsidefile.h"
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<windows.h>
+	<string>
+
