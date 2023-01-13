@@ -84,11 +84,6 @@ int main()
             exit (0);
             break;
 
-        case 'D':
-        case 'd':
-            exit (0);
-            break;
-
         default: cout << "Invalid choices";
     }
     return 0;
