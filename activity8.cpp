@@ -11,7 +11,8 @@
 using namespace std;
 
 
-int activityEight(){
+int activityEight()
+{
 
     int slsman_no, percom;
     string slsman_name, dscrptn;
@@ -20,9 +21,10 @@ int activityEight(){
     string E = "Press any key to return...";
 
     cout << "\n\t\t\t\t\t\t     " ;
-    for (int i=0 ; i < S[i]; i++){
+    for (int i=0 ; i < S[i]; i++)
+    {
         cout << S[i] ;
-    Sleep(30);
+        Sleep(30);
     }
     cout << "\n\n\n\t\t\t\t\tInput Salesman No.: ";
     cin >> slsman_no;
@@ -74,36 +76,36 @@ int activityEight(){
     }
 
     switch(percom)
-	{
-        case 0:
-            actual_com = mnthly_sls * 0;
-            cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
-            break;
+    {
+    case 0:
+        actual_com = mnthly_sls * 0;
+        cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
+        break;
 
-        case 5:
-            actual_com = mnthly_sls * 0.05;
-            cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
-            break;
+    case 5:
+        actual_com = mnthly_sls * 0.05;
+        cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
+        break;
 
-        case 10:
-            actual_com = mnthly_sls * 0.1;
-            cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
-            break;
+    case 10:
+        actual_com = mnthly_sls * 0.1;
+        cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
+        break;
 
-        case 15:
-        	actual_com = mnthly_sls * 0.15;
-        	cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
-        	break;
+    case 15:
+        actual_com = mnthly_sls * 0.15;
+        cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
+        break;
 
-        case 20:
-        	actual_com = mnthly_sls * 0.2;
-        	cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
-        	break;
+    case 20:
+        actual_com = mnthly_sls * 0.2;
+        cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
+        break;
 
-        case 25:
-        	actual_com = mnthly_sls * 0.25;
-        	cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
-        	break;
+    case 25:
+        actual_com = mnthly_sls * 0.25;
+        cout << "\t\t\t\t\tActual Commission: " << actual_com << endl;
+        break;
     }
 
     net_amount = mnthly_sls - actual_com;
@@ -113,13 +115,15 @@ int activityEight(){
     cout << "\t\t\t\t\tTotal Salary: " << total_salary << endl;
 
     cout << "\n\n\t\t\t\t\t";
-    for (int i=0 ; i < E[i]; i++){
-            cout << E[i] ;
+    for (int i=0 ; i < E[i]; i++)
+    {
+        cout << E[i] ;
         Sleep(10);
-        }
+    }
     getch();
 
-    while (getch){
+    while (getch)
+    {
         system("cls");
         return main();
     }

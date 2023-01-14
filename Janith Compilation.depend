@@ -133,7 +133,7 @@
 	<string>
 	<windows.h>
 
-1673620815 c:\users\john ray\janith-compilation\outsidefile.h
+1673622914 c:\users\john ray\janith-compilation\outsidefile.h
 
 1673542755 source:c:\users\john ray\janith-compilation\activity10.cpp
 	<iostream>
@@ -223,7 +223,7 @@
 	<string>
 	<windows.h>
 
-1673622083 source:c:\users\john ray\janith-compilation\main.cpp
+1673623068 source:c:\users\john ray\janith-compilation\main.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>

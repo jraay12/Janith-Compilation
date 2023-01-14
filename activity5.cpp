@@ -10,55 +10,59 @@
 
 using namespace std;
 
-int activityFive(){
+int activityFive()
+{
     int i, n;
-	bool prmnm = true;
-	string S = "Activity 5";
+    bool prmnm = true;
+    string S = "Activity 5";
     string E = "Press any key to return...";
 
-	cout << "\t\t\t\t\t\t     " ;
-    for (int i=0 ; i < S[i]; i++){
+    cout << "\t\t\t\t\t\t     " ;
+    for (int i=0 ; i < S[i]; i++)
+    {
         cout << S[i] ;
-    Sleep(30);
+        Sleep(30);
     }
 
-	cout << "\n\n\t\t\t\t\tEnter a positive integer:";
-	cin >> n;
+    cout << "\n\n\t\t\t\t\tEnter a positive integer:";
+    cin >> n;
 
-	if (n == 0 || n == 1)
-	{
-		prmnm = false;
-	}
+    if (n == 0 || n == 1)
+    {
+        prmnm = false;
+    }
 
-		for (i = 2; i <= n/2; ++i)
-		{
-			if (n % i == 0)
-			{
-		    	prmnm = false;
-		    	break;
-	    	}
-		}
+    for (i = 2; i <= n/2; ++i)
+    {
+        if (n % i == 0)
+        {
+            prmnm = false;
+            break;
+        }
+    }
 
-  	if (prmnm)
-  	{
-		cout << "\t\t\t\t\t"<< n << " is a prime number.";
-	}
+    if (prmnm)
+    {
+        cout << "\t\t\t\t\t"<< n << " is a prime number.";
+    }
 
-  	else
-  	{
-    	cout << "\t\t\t\t\t" << n << " is not a prime number.";
+    else
+    {
+        cout << "\t\t\t\t\t" << n << " is not a prime number.";
     }
 
     cout << "\n\n\t\t\t\t\t";
-    for (int i=0 ; i < E[i]; i++){
-            cout << E[i] ;
+    for (int i=0 ; i < E[i]; i++)
+    {
+        cout << E[i] ;
         Sleep(10);
-        }
+    }
 
 
     getch();
 
-    while (getch){
+    while (getch)
+    {
         system("cls");
         return main();
     }

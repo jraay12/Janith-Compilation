@@ -10,7 +10,8 @@
 
 using namespace std;
 
-void Color(){
+void Color()
+{
     int P = 12;
 
     HANDLE console_color;
@@ -26,9 +27,10 @@ int main()
     Color();
 
     cout << "\t\t\t\t\t\t  ";
-    for (int i=0 ; i < S[i]; i++){
+    for (int i=0 ; i < S[i]; i++)
+    {
         cout << S[i] ;
-    Sleep(30);
+        Sleep(30);
     }
     cout << "\n\n\n\t\t\t\t\t\t    [1] Activity 1";
     cout << "\n\t\t\t\t\t\t    [2] Activity 2";
@@ -47,43 +49,55 @@ int main()
     system("cls");
 
 
-    switch (choice){
-        case '1': activityOne();
+    switch (choice)
+    {
+    case '1':
+        activityOne();
         break;
 
-        case '2': activityTwo();
+    case '2':
+        activityTwo();
         break;
 
-        case '3' : activityThree();
+    case '3' :
+        activityThree();
         break;
 
-        case '4' : activityFour();
+    case '4' :
+        activityFour();
         break;
 
-        case '5' : activityFive();
+    case '5' :
+        activityFive();
         break;
 
-        case '6' : activitySix();
+    case '6' :
+        activitySix();
         break;
 
-        case '7' : activitySeven();
+    case '7' :
+        activitySeven();
         break;
 
-        case '8' : activityEight();
+    case '8' :
+        activityEight();
         break;
 
-        case '9' : activityNine();
+    case '9' :
+        activityNine();
         break;
 
-        case '0' : activityTen();
+    case '0' :
+        activityTen();
         break;
 
-        case 'X':
-        case 'x':
-            exit (0);
-            break;
+    case 'X':
+    case 'x':
+        exit (0);
+        break;
 
-        default: cout << "Invalid choices";
+    default:
+        cout << "Invalid choices";
     }
     return 0;
 }
