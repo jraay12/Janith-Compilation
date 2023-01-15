@@ -12,11 +12,12 @@ using namespace std;
 
 void Color()
 {
-    int P = 12;
+    system("COLOR 34");
+    //int P = 12;
 
-    HANDLE console_color;
-    console_color = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(console_color, P);
+    //HANDLE console_color;
+    //console_color = GetStdHandle(STD_OUTPUT_HANDLE);
+    //SetConsoleTextAttribute(console_color, P);
 }
 int main()
 {

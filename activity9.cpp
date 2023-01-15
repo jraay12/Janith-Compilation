@@ -20,6 +20,7 @@ int login()
 
     do
     {
+        system("COLOR 5");
         Color();
         printf("\n\t\t\t\t\t\t Computer Programming 1");
         printf("\n\t\t\t\t\t Student Information Management System \n");
