@@ -13,11 +13,6 @@ using namespace std;
 void Color()
 {
     system("COLOR 34");
-    //int P = 12;
-
-    //HANDLE console_color;
-    //console_color = GetStdHandle(STD_OUTPUT_HANDLE);
-    //SetConsoleTextAttribute(console_color, P);
 }
 int main()
 {
@@ -100,5 +95,6 @@ int main()
     default:
         cout << "Invalid choices";
     }
+
     return 0;
 }
