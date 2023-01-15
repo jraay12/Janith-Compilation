@@ -7,12 +7,38 @@
 #include <iomanip>
 #include <windows.h>
 #include <string>
+#include <stdio.h>
 
 using namespace std;
 
 void Color()
 {
     system("COLOR 34");
+}
+
+void Bar()
+{
+    system("COLOR 34");
+
+    SetConsoleCP(437);
+    SetConsoleOutputCP(437);
+
+    int bar1 =177, bar2 =219;
+
+    cout << "\t\t\t\t\t";
+    for (int i =0 ; i < 25; i++)
+    {
+        cout << (char)bar1;
+    }
+
+    cout << "\r";
+    cout << "\t\t\t\t\t";
+    for (int j = 0; j < 25; j++ )
+    {
+        cout << (char)bar2;
+        Sleep(8);
+    }
+
 }
 int main()
 {

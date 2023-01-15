@@ -129,6 +129,8 @@ int activitySix()
         cout << E[i] ;
         Sleep(10);
     }
+    cout << "\n";
+    Bar();
     getch();
 
     while (getch)

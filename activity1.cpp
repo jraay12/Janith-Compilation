@@ -36,6 +36,9 @@ int activityOne()
         cout << E[i] ;
         Sleep(10);
     }
+    cout << "\n";
+    cout << "\r";
+    Bar();
     getch();
     while (getch)
     {

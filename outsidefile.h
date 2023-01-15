@@ -12,5 +12,6 @@ int activityEight();
 int activityNine();
 int activityTen();
 void Color();
+void Bar();
 int main();
 #endif // OUTSIDEFILE_H_INCLUDED
