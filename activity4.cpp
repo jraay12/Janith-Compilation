@@ -15,7 +15,9 @@ int activityFour()
 {
     float c, f, fahrenheit, celsius;
     string S = "Activity 4";
-    string E = "Press any key to return...";
+    string E = "Do you want to convert another temperature?[Y/N]";
+    char choice;
+    do{
     cout << "\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
@@ -43,14 +45,11 @@ int activityFour()
     }
     cout << "\n";
     Bar();
+    choice = getch();
+    system("cls");
+    }while (choice == 'y' || choice == 'Y');
+    return main();
 
-    getch();
-
-    while (getch)
-    {
-        system("cls");
-        return main();
-    }
 
 
 }

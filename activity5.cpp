@@ -15,8 +15,9 @@ int activityFive()
     int i, n;
     bool prmnm = true;
     string S = "Activity 5";
-    string E = "Press any key to return...";
-
+    string E = "Input another positive number?[Y/N]";
+    char choice;
+    do{
     cout << "\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
@@ -59,11 +60,8 @@ int activityFive()
     }
     cout << "\n";
     Bar();
-    getch();
-
-    while (getch)
-    {
-        system("cls");
-        return main();
-    }
+    choice = getch();
+    system("cls");
+    }while (choice == 'y' || choice == 'Y');
+    return main();
 }

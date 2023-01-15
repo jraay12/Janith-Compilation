@@ -13,8 +13,10 @@ int activityTwo()
 {
 
     int C, A, B;
+    char choice;
     string S = "Activity 2";
-    string E = "Press any key to return...";
+    string E = "Do you want to add another number?(Y/N)";
+    do {
     cout << "\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
@@ -39,14 +41,12 @@ int activityTwo()
     }
     cout << "\n";
     Bar();
-    getch();
-
-    while (getch)
-    {
-        system("cls");
-        return main();
-    }
+    choice = getch();
+    system("cls");
+    }while (choice == 'Y' || choice == 'y');
+    return main();
 
 
 
 }
+

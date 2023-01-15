@@ -26,14 +26,14 @@ void Bar()
     int bar1 =177, bar2 =219;
 
     cout << "\t\t\t\t\t";
-    for (int i =0 ; i < 25; i++)
+    for (int i =0 ; i < 40; i++)
     {
         cout << (char)bar1;
     }
 
     cout << "\r";
     cout << "\t\t\t\t\t";
-    for (int j = 0; j < 25; j++ )
+    for (int j = 0; j < 40; j++ )
     {
         cout << (char)bar2;
         Sleep(8);
@@ -65,7 +65,7 @@ int main()
     cout << "\n\t\t\t\t\t\t    [9] Activity 9";
     cout << "\n\t\t\t\t\t\t    [0] Activity 10";
     cout << endl << "\n\t\t\t\t\t\t    [X] To Exit";
-    cout << "\n\n\t\t\t\t\t\t Enter you choice: ";
+    cout << "\n\n\t\t\t\t\t\t Enter your choice: ";
     fflush(stdin);
     choice = getch();
     system("cls");

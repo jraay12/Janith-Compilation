@@ -23,10 +23,10 @@ int activitySeven()
     string lst_name;
     string stdnt_course;
     string stdnt_subject;
-    string S = "Activity 4";
-    string E = "Press any key to return...";
-
-
+    string S = "Activity 7";
+    string E = "Do you want to add another record?[Y/N]";
+    char choice;
+    do{
     cout << "\n\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
@@ -156,13 +156,11 @@ int activitySeven()
     }
     cout << "\n";
     Bar();
-    getch();
+    choice = getch();
+    system("cls");
+    }while (choice == 'y' || choice == 'Y');
+    return main();
 
-    while (getch)
-    {
-        system("cls");
-        return main();
-    }
 
 }
 

@@ -17,9 +17,10 @@ int activityEight()
     int slsman_no, percom;
     string slsman_name, dscrptn;
     float mnthly_salary, sllng_prc, mnthly_unit, mnthly_sls, actual_com, net_amount, total_salary;
-    string S = "Activity 4";
-    string E = "Press any key to return...";
-
+    string S = "Activity 8";
+    string E = "Do you want to another record?[Y/N]";
+    char choice;
+    do{
     cout << "\n\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
@@ -122,11 +123,8 @@ int activityEight()
     }
     cout << "\n";
     Bar();
-    getch();
-
-    while (getch)
-    {
-        system("cls");
-        return main();
-    }
+    choice = getch();
+    system("cls");
+    }while(choice == 'y' || choice == 'Y');
+    return main();
 }

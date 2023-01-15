@@ -22,9 +22,10 @@ int activitySix()
     string lst_name;
     string stdnt_course;
     string stdnt_subject;
-    string S = "Activity 4";
-    string E = "Press any key to return...";
-
+    string S = "Activity 6";
+    string E = "Do you want to add another record?[Y/N]";
+    char choice;
+    do {
     cout << "\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
@@ -131,13 +132,9 @@ int activitySix()
     }
     cout << "\n";
     Bar();
-    getch();
-
-    while (getch)
-    {
-        system("cls");
-        return main();
-    }
-
+    choice = getch();
+    system("cls");
+    }while (choice == 'y' || choice == 'Y');
+    return main();
 
 }
