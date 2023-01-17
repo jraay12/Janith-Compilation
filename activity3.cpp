@@ -23,6 +23,7 @@ int activityThree()
         cout << S[i] ;
         Sleep(30);
     }
+    cout << "\n\t\t\t\t\t    Conversion of Measurements \n\n";
     cout << "\n\n\t\t\t\t\tEnter inch value: ";
     cin >> inch;
 

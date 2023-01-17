@@ -23,7 +23,7 @@ int activityTwo()
         cout << S[i] ;
         Sleep(30);
     }
-
+    cout << "\n\t\t\t\t\t\t Adding Two Values \n\n";
     cout << "\n\n\t\t\t\t\tEnter 1st number: ";
     cin >> A;
 
