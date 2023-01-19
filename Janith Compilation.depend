@@ -303,7 +303,7 @@
 	<string>
 	<windows.h>
 
-1673966536 source:c:\users\coole\janith-compilation\activity5.cpp
+1673970020 source:c:\users\coole\janith-compilation\activity5.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -358,7 +358,7 @@
 	<string>
 	<windows.h>
 
-1673965240 source:c:\users\coole\janith-compilation\main.cpp
+1673971052 source:c:\users\coole\janith-compilation\main.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>

@@ -2,24 +2,34 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="activity1.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1232" topLine="27" />
-		</Cursor>
-	</File>
 	<File name="activity2.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="808" topLine="28" />
+			<Cursor1 position="502" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="activity1.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="447" topLine="5" />
 		</Cursor>
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="534" topLine="22" />
+			<Cursor1 position="1145" topLine="71" />
 		</Cursor>
 	</File>
-	<File name="activity3.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="activity8.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="986" topLine="25" />
+			<Cursor1 position="3251" topLine="108" />
+		</Cursor>
+	</File>
+	<File name="activity7.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3893" topLine="144" />
+		</Cursor>
+	</File>
+	<File name="activity6.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3632" topLine="118" />
 		</Cursor>
 	</File>
 	<File name="activity10.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
@@ -27,39 +37,29 @@
 			<Cursor1 position="13341" topLine="382" />
 		</Cursor>
 	</File>
+	<File name="activity4.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1366" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="activity3.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="585" topLine="28" />
+		</Cursor>
+	</File>
 	<File name="outsidefile.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="301" topLine="0" />
+			<Cursor1 position="350" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="activity6.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="activity9.cpp" open="1" top="1" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3632" topLine="122" />
-		</Cursor>
-	</File>
-	<File name="activity7.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3893" topLine="148" />
+			<Cursor1 position="6055" topLine="166" />
 		</Cursor>
 	</File>
 	<File name="activity5.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1102" topLine="48" />
-		</Cursor>
-	</File>
-	<File name="activity4.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1033" topLine="27" />
-		</Cursor>
-	</File>
-	<File name="activity9.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="10271" topLine="299" />
-		</Cursor>
-	</File>
-	<File name="activity8.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3251" topLine="111" />
+			<Cursor1 position="578" topLine="15" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
