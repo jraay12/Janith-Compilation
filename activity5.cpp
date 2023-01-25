@@ -22,7 +22,7 @@ int activityFive()
         cout << "\t\t\t\t\t\t     " ;
         for (int i=0 ; i < S[i]; i++)
         {
-            cout << S[i] ;
+            cout << S[i];
             Sleep(30);
         }
 

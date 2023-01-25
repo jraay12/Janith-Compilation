@@ -30,7 +30,7 @@ int activitySeven()
     cout << "\n\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
-        cout << S[i] ;
+        cout << S[i];
         Sleep(30);
     }
     cout << "\n\n\t\t\t\t\tEnter Student Number: ";
@@ -151,7 +151,7 @@ int activitySeven()
     cout << "\n\n\t\t\t\t\t";
     for (int i=0 ; i < E[i]; i++)
     {
-        cout << E[i] ;
+        cout << E[i];
         Sleep(10);
     }
     cout << "\n";

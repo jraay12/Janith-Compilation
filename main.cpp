@@ -129,7 +129,7 @@ int main()
         break;
 
     default:
-        cout << "Invalid choices";
+        cout << "Invalid choice!";
     }
 
     return 0;

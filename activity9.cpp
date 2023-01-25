@@ -11,7 +11,6 @@
 
 int login()
 {
-
     int a = 0, i = 0;
     char uname[20], c = ' ';
     char pword[20], code[20];
@@ -60,14 +59,14 @@ int login()
         }
     }
 
-    while (a <= 3 );
+    while (a <= 2 );
 
-    if (a > 3)
+    if (a > 2)
     {
         Color();
         printf("\n\n\t\t\t\t\t\t Computer Programming 1 \n");
         printf("\n\t\t\t\t\t Student Information Management System \n");
-        printf("\n\n\n\t\t\t Sorry, you have entered the wrong username and password four times!  ");
+        printf("\n\n\n\t\t\t Sorry, you have entered the wrong username and password three times!  ");
 
         getch();
         system ("cls");

@@ -34,12 +34,25 @@ int activityLogin()
     char pword[20], code[20];
     char user[20] = "togsaaay";
     char pass[20] = "janith0131";
+    string S = "Activity 10";
+    string C = "Computer Programming 1";
 
     do
     {
+        cout << "\t\t\t\t\t\t     " ;
+        for (int i=0 ; i < S[i]; i++)
+        {
+            cout << S[i] ;
+            Sleep(30);
+        }
+        cout << endl;
+        cout << "\t\t\t\t\t\t" ;
+        for (int i=0 ; i < C[i]; i++)
+        {
+            cout << C[i] ;
+            Sleep(30);
+        }
         Color();
-        cout << "\n\t\t\t\t\t\t    Activity 10\n\n\n";
-        printf("\n\t\t\t\t\t\t Computer Programming 1");
         printf("\n\t\t\t\t\t Student Information Management System");
 
 

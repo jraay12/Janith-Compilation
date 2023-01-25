@@ -259,7 +259,7 @@
 
 1673965240 c:\users\coole\janith-compilation\outsidefile.h
 
-1673965240 source:c:\users\coole\janith-compilation\activity10.cpp
+1674668440 source:c:\users\coole\janith-compilation\activity10.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
@@ -270,7 +270,7 @@
 	<string>
 	<windows.h>
 
-1673965706 source:c:\users\coole\janith-compilation\activity2.cpp
+1674635311 source:c:\users\coole\janith-compilation\activity2.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -281,7 +281,7 @@
 	<string>
 	<windows.h>
 
-1673965808 source:c:\users\coole\janith-compilation\activity3.cpp
+1674641470 source:c:\users\coole\janith-compilation\activity3.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -292,7 +292,7 @@
 	<string>
 	<windows.h>
 
-1673969957 source:c:\users\coole\janith-compilation\activity4.cpp
+1674642992 source:c:\users\coole\janith-compilation\activity4.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -303,7 +303,7 @@
 	<string>
 	<windows.h>
 
-1673970020 source:c:\users\coole\janith-compilation\activity5.cpp
+1674199316 source:c:\users\coole\janith-compilation\activity5.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -325,7 +325,7 @@
 	<string>
 	<windows.h>
 
-1673965240 source:c:\users\coole\janith-compilation\activity7.cpp
+1674655042 source:c:\users\coole\janith-compilation\activity7.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -336,7 +336,7 @@
 	<string>
 	<windows.h>
 
-1673965240 source:c:\users\coole\janith-compilation\activity8.cpp
+1674659738 source:c:\users\coole\janith-compilation\activity8.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>
@@ -347,7 +347,7 @@
 	<string>
 	<windows.h>
 
-1673965240 source:c:\users\coole\janith-compilation\activity9.cpp
+1674668271 source:c:\users\coole\janith-compilation\activity9.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
@@ -358,7 +358,7 @@
 	<string>
 	<windows.h>
 
-1673971052 source:c:\users\coole\janith-compilation\main.cpp
+1674626704 source:c:\users\coole\janith-compilation\main.cpp
 	<iostream>
 	"outsidefile.h"
 	<cstdio>

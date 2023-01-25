@@ -20,7 +20,7 @@ int activityThree()
     cout << "\t\t\t\t\t\t     " ;
     for (int i=0 ; i < S[i]; i++)
     {
-        cout << S[i] ;
+        cout << S[i];
         Sleep(30);
     }
     cout << "\n\t\t\t\t\t    Conversion of Measurements \n\n";
@@ -38,7 +38,7 @@ int activityThree()
     cout << "\n\n\n\t\t\t\t\t";
     for (int i=0 ; i < E[i]; i++)
     {
-        cout << E[i] ;
+        cout << E[i];
         Sleep(10);
     }
     cout << "\n";

@@ -125,6 +125,7 @@ int activityEight()
     Bar();
     choice = getch();
     system("cls");
-    }while(choice == 'y' || choice == 'Y');
+    }
+    while(choice == 'y' || choice == 'Y');
     return main();
 }

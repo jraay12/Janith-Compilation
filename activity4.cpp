@@ -21,7 +21,7 @@ int activityFour()
         cout << "\t\t\t\t\t\t     " ;
         for (int i=0 ; i < S[i]; i++)
         {
-            cout << S[i] ;
+            cout << S[i];
             Sleep(30);
         }
 
@@ -42,7 +42,7 @@ int activityFour()
         cout << "\n\n\t\t\t\t\t";
         for (int i=0 ; i < E[i]; i++)
         {
-            cout << E[i] ;
+            cout << E[i];
             Sleep(10);
         }
         cout << "\n";
