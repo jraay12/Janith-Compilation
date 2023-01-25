@@ -21,6 +21,7 @@ int login()
     {
         system("COLOR 5");
         Color();
+        Design();
         printf("\n\t\t\t\t\t\t Computer Programming 1");
         printf("\n\t\t\t\t\t Student Information Management System \n");
         printf("\n\n\n\t\t\t\t\t Enter Username: ");
@@ -120,7 +121,7 @@ int activityNine ()
         {
 
             system("cls");
-
+            Design();
             printf("\n\n\t\t\t\t\t\t Computer Programming 1");
             cout << "\n\t\t\t\t\t Student Information Management System";
             cout << "\n\n\t\t\t\t\t\t\t Main Menu";
@@ -144,7 +145,7 @@ int activityNine ()
                 while (another == 'Y' || another == 'y')
                 {
                     system("cls");
-
+                    Design();
                     printf("\n\n\t\t\t\t\t\t Computer Programming 1");
                     cout << "\n\t\t\t\t\t Student Information Management System";
                     printf("\n\n\t\t\t\t\t\t\t Add Record");
@@ -179,7 +180,7 @@ int activityNine ()
             case 'v':
                 system("cls");
                 rewind (fp);
-
+                Design();
                 printf("\n\t\t\t\t\t\t Computer Programming 1");
                 cout << "\n\t\t\t\t\t Student Information Management System";
                 printf("\n\t\t\t\t\t\t\t View Record");
@@ -206,6 +207,7 @@ int activityNine ()
 
                 while (another == 'Y' || another == 'y')
                 {
+                    Design();
                     printf("\n\t\t\t\t\t\t Computer Programming 1 \n");
                     printf("\n\t\t\t\t\t Student Information Management System");
                     printf("\n\n\n\t\t\t\t\t\t     Modify Record");
@@ -259,6 +261,7 @@ int activityNine ()
 
                 while (another == 'Y' || another == 'y')
                 {
+                    Design();
                     printf("\n\t\t\t\t\t\t Computer Programming 1 \n");
                     cout << "\n\t\t\t\t\t Student Information Management System";
                     printf("\n\n\n\t\t\t\t\t\t\t Delete Record\n\n\n");

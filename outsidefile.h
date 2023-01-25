@@ -13,5 +13,6 @@ int activityNine();
 int activityTen();
 void Color();
 void Bar();
+void Design();
 int main();
 #endif // OUTSIDEFILE_H_INCLUDED

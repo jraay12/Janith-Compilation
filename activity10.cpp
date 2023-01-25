@@ -25,6 +25,18 @@ struct uno
 
 struct uno e;
 
+void Design()
+{
+        string S = "Activity 10";
+        cout << "\n\n\t\t\t\t\t\t     " ;
+        for (int i=0 ; i < S[i]; i++)
+        {
+            cout << S[i] ;
+            Sleep(30);
+        }
+
+}
+
 int activityLogin()
 {
 
@@ -39,12 +51,7 @@ int activityLogin()
 
     do
     {
-        cout << "\t\t\t\t\t\t     " ;
-        for (int i=0 ; i < S[i]; i++)
-        {
-            cout << S[i] ;
-            Sleep(30);
-        }
+        Design();
         cout << endl;
         cout << "\t\t\t\t\t\t" ;
         for (int i=0 ; i < C[i]; i++)
@@ -217,7 +224,7 @@ int activityTen ()
         while(1)
         {
             system("cls");
-
+            Design();
             printf("\n\n\t\t\t\t\t\t Computer Programming 1");
             cout << "\n\t\t\t\t\t Student Information Management System";
             cout << "\n\n\t\t\t\t\t\t\t Main Menu";
@@ -242,7 +249,7 @@ int activityTen ()
                 while (another == 'Y' || another == 'y')
                 {
                     system("cls");
-
+                    Design();
                     printf("\n\n\t\t\t\t\t\t Computer Programming 1");
                     cout << "\n\t\t\t\t\t Student Information Management System";
                     printf("\n\n\t\t\t\t\t\t\t Add Record");
@@ -284,7 +291,7 @@ int activityTen ()
             case 'v':
                 system("cls");
                 rewind (fp);
-
+                Design();
                 printf("\n\t\t\t\t\t\t Computer Programming 1");
                 cout << "\n\t\t\t\t\t Student Information Management System";
                 printf("\n\t\t\t\t\t\t\t View Record");
@@ -314,6 +321,7 @@ int activityTen ()
 
                 while (another == 'Y' || another == 'y')
                 {
+                    Design();
                     printf("\n\t\t\t\t\t\t Computer Programming 1 \n");
                     printf("\n\t\t\t\t\t Student Information Management System");
                     printf("\n\n\n\t\t\t\t\t\t     Modify Record");
@@ -369,6 +377,7 @@ int activityTen ()
 
                 while (another == 'Y' || another == 'y')
                 {
+                    Design();
                     printf("\n\t\t\t\t\t\t Computer Programming 1 \n");
                     cout << "\n\t\t\t\t\t Student Information Management System";
                     printf("\n\n\n\t\t\t\t\t\t\t Delete Record\n\n\n");
